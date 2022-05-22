@@ -1,0 +1,47 @@
+body {
+    background: rgb(70, 19, 19);
+    /*background: rgb(70, 142, 236);*/
+    font: normal 15pt Arial;
+    overflow: scroll;
+    width: auto;
+    height: auto;
+}
+header {
+    color: white;
+    text-align: center;
+}
+h1 {
+    position: relative;
+    font-size: 2em;
+    /*color: #e9f4ff;*/
+    color: rgb(255, 212, 22);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: rgb(14, 1, 6) 1px 0 10px;
+    animation: blink 5s infinite;
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.row label {
+    text-align: right;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    color: white;
+    font-size: 20px;
+}
+
+.card-carro {
+    width: 250px;
+    background-color: rgb(213, 235, 13);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    float: left;
+    text-align: left;
+}
